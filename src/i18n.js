@@ -4,14 +4,28 @@ import LanguageDetector from "i18next-browser-languagedetector";
 i18n.use(LanguageDetector).init({
   // we init with resources
   resources: {
+    en: {
+      translations: {
+        'Admin':'Admin',
+        'Home':'Home',
+        'search Name':'search Name',
+        'change Name':'change Name',
+        'change Rating':'change Rating',
+        'submit':'submit',
+        'Name is':'Name is',
+        'Rating is':'Rating is'
+      }
+    },
     ru: {
       translations: {
-        'Admin':'Администратор',
+        'Admin': 'Администратор',
         'Home': 'Главная страница',
-        'search Name':'поиск Имени',
-        'change Name':'cменить Имя',
-        'change Rating':'изменить Pейтинг',
-        'submit': 'утверждать'
+        'search Name': 'поиск Имени',
+        'change Name': 'cменить Имя',
+        'change Rating': 'изменить Pейтинг',
+        'submit': 'утверждать',
+        'Name is': 'Имя',
+        'Rating is': 'Рейтинг'
       }
     }
   },
