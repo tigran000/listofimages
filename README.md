@@ -4,5 +4,5 @@ Single Page Application with:
   home page,with pictures of all clients, where the size of client’s picture depends on their ratings (as higher their rating as bigger   their picture).
   multilingual functionality.
   
-  Live website: https://focused-noyce-496563.netlify.com/admin
+  Live website: https://focused-noyce-496563.netlify.com
   
